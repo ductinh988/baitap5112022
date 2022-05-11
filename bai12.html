@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form và các điều khiển trên form</title>
+    <style>
+        .box {
+            width: 800px;
+            height: 400px;
+            box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin: auto;
+        }
+        table, tr, td {
+            border: 1px solid black;
+            background-color: rgb(127, 255, 182);
+        }
+        table {
+            border-collapse: collapse;
+            width: 95%;
+            height: 300px;
+            color: green;
+            margin: auto;
+        }
+        .title {
+            color: green;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .dangky {
+            text-align: center;
+            color: rgb(236, 68, 68);
+        }
+        .name {
+            width: 400px;
+        }
+        .frames {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1 class="title">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+        <form action="">
+
+            <table>
+                <tr>
+                    <td><label for="name">Họ và tên</label></td>
+                    <td><input class="name" type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Địa chỉ</label></td>
+                    <td><input class="frames" type="text" id="address" name="address"></td>
+                </tr>
+                <tr>
+                    <td><label for="tel">Điện thoại</label></td>
+                    <td><input type="tel" id="tel" name="tel"></td>
+                </tr>
+                <tr>
+                    <td><label for=""></label>Phái</label></td>
+                    <td><input type="radio" id="gioitinh" name="gioitinh">
+                        <label for="gioitinh">Nam</label>
+                        <input type="radio" id="gioitinh" name="gioitinh">
+                        <label for="nu">Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="job"></label>nghề nghiệp</label></td>
+                    <td>
+                        <select id="job" name="job">
+                            <option value="Bacsi">Bác sĩ</option>
+                            <option value="kysu">Kỹ sư</option>
+                            <option value="Giaovien">Giáo viên</option>
+                            <option value="Khac">Khác</option>
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="product"></label>Chọn sản phẩm tham gia</label></td>
+                    <td><input type="text" id="product" name="product">
+                        <!-- <select id="job" name="job">
+                            <option value="">Kem đánh răng</option>
+                            <option value="kysu">Bột giặt</option>
+                            <option value="Giaovien">Dầu gội dầu</option>
+                            <option value="Khac">Sữa tắm</option>
+                          </select> -->
+                    <div>
+
+                    </div></td>
+                </tr>
+                <tr>
+                    <td><label for="quantity"></label>Số người tham gia</label></td>
+                    <td><input type="text" id="quantity" name="quantity"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="dangky">
+
+                        <button>Đồng ý</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="dangky color">Bạn đã đăng ký thành công!!!</td>
+                </tr>
+    
+            </table>
+        </form>
+    </div>
+</body>
+</html>

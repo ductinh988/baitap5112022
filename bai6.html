@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Định dạng văn bản</title>
+    <style>
+        .header {
+            border: 1px solid hsl(26, 100%, 50%);
+            outline: 2px solid hsl(26, 100%, 50%);
+            outline-offset: 2px;
+            text-align: center;
+            color: hsl(26, 100%, 50%);
+            font-weight: 900px;
+            margin: 10px;
+        }
+        .title {
+            background-color: hsl(26, 100%, 50%);
+            color: white;
+            font-size: 20px;
+            font-weight: 800;
+            text-align: right;
+            margin: 10px;
+            /* font-weight: bold; */
+        }
+        .content_1 {
+            font-size: 25px;
+            margin: 10px;
+        }
+        .content_1::first-letter {
+            font-size: 70px;
+            color: rgb(144, 23, 23);
+            font-weight: bold;
+            margin: 10px;
+        }
+        .content_2 {
+            font-size: 25px;
+            text-align: right;
+            margin: 10px;
+        }
+        .content_2::first-letter {
+            font-size: 70px;
+            color: rgb(144, 23, 23);
+            font-weight: bold;
+        }
+        .smear {
+            background-color: yellow;
+        }
+        .text_color {
+            color:rgb(222, 2, 2);
+        }
+        .box {
+            width: 95%;
+            height: 500px;
+           box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+           margin: auto;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="box">
+
+        <h1 class="header">
+            THƯỢNG HẢ <br> TƯƠNG LAI CỦA TRUNG HOA HIỆN ĐẠI
+        </h1>
+        <div class="content_1">
+            Không thể so sánh với Bắc Kinh, Tây An về chiều sâu văn hóa lịch sử, Thượng Hải hấp dẫn du khách bởi một khía cạnh khác: <u> điểm nóng nhất của Trung hoa hiện đại</u>
+        </div>
+        <p class="title">Bến Thượng Hải</p>
+        <div class="content_2">Là sự kết hợp hài hòa một cách kỳ lạ giữa <span class="text_color">Liverpool</span> và <span class="text_color"> Mahattan</span> nhưng năm 1920,
+            con phố ấn tượng nhất ở Thượng Hải là Trung Sơn lộ, người phương Tây quen gọi là <i><mark> Bund</mark>
+            </i> còn người Việt Nam gọi là <i class="smear"> Bến thượng Hải</i>. Xưa kia, đây chính là trung tâm náo nhiệt nhất của Thượng Hải, là khu tô giới bị tranh chấp sữ dội nhất của ba nước Anh, Nhật, Mỹ.
+            Một bên là sông Hoàng Phố, bên kia là những công trình kiến trúc theo lối Tây Phương - <br>
+            .cũng chính là trung tâm kinh tế đầu anxo của thành phố này
+        </div>
+    </div>
+</body>
+</html>

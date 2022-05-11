@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Định dạng văn bản</title>
+    <style>
+        .box {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            width: 600px;
+            height: 400px;
+            margin: auto;
+        }
+        .title {
+            color: #156a1c;
+            text-align: center;
+            font-size: 40px;
+        }
+        .item {
+            font-size: 20px;
+            margin: 10px;
+        }
+        .color {
+            color: red;
+        }
+        .style {
+            text-decoration: underline 1px;
+
+        }
+        .box_content {
+            color: #0000CC;
+            background-color: #CCCCCC;
+            word-spacing: 10px;
+            
+            
+        }
+        .alignment_left {
+            margin-left: 20%;
+            line-height: 30px;
+          
+
+        }
+        .alignment_center {
+            text-align: center;
+            line-height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+
+        <h1 class="title">Định dạng văn bản</h1>
+        <div class="item">
+            <p><b class="style">Hóa học:</b><i> Nước</i>: <span class="color">H<sub>2</sub>O</span>; <i>Axit Sunfuric:</i><span class="color">H<sub>2</sub>SO<sub>4</sub></span> </p>
+            <p><b class="style">Toán học</b>: <i>Phương trình bậc 2:</i> <span class="color">ax<sup>2</sup> + bx + c = 0</span> </p>
+            <p><b class="style">tin học</b>: <i>Vòng lặp For.</i></p>
+            <div class="box_content">
+               <p class="alignment_left">For 1 = 0 To 10 </p>  
+               <p class="alignment_center">Tong = Tong + 1</p>
+               <p class="alignment_left">Next</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
